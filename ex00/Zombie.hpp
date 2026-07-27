@@ -6,12 +6,15 @@
 class Zombie
 {
     private:
-        std::string _name;
+        std::string _name; // _name é atributo
 
     public:
         void announce();
-        Zombie(const std::string &name);
+        Zombie(const std::string &name); // é parâmetro
         ~Zombie();
 };
+
+Zombie* newZombie( std::string name );
+void randomChump( std::string name );
 
 #endif
