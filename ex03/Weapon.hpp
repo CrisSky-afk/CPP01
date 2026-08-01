@@ -9,6 +9,7 @@ class Weapon
     private:
         std::string type;
     public:
+        Weapon(const std::string &type);
 
     // funcoes membros
         void setType(const std::string &type);
