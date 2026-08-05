@@ -6,11 +6,11 @@
 class Zombie
 {
     private:
-        std::string _name; // _name é atributo
+        std::string _name;
 
     public:
         void announce();
-        Zombie(const std::string &name); // é parâmetro
+        Zombie(const std::string &name);
         ~Zombie();
 };
 

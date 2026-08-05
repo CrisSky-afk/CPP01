@@ -11,7 +11,6 @@ class Weapon
     public:
         Weapon(const std::string &type);
 
-    // funcoes membros
         void setType(const std::string &type);
         const std::string &getType() const;
 };

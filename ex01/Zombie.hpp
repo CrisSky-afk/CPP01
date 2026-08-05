@@ -10,8 +10,8 @@ class Zombie
 
     public:
         void announce();
-        Zombie(); // construtor padrão (sem parâmetros)
-        Zombie(const std::string &name); // construtor com parâmetros
+        Zombie();
+        Zombie(const std::string &name);
         ~Zombie();
         void setName(const std::string &name);
 };
